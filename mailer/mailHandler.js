@@ -7,7 +7,6 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: "email_address",
     pass: "password", // use App-password instead of actual password
-
   },
 });
 
